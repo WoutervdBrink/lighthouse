@@ -3,8 +3,10 @@
 namespace DummyNamespace;
 
 use Nuwave\Lighthouse\Schema\Directives\BaseDirective;
+{{ imports }}
 
-class DummyClass extends BaseDirective
+class DummyClass extends BaseDirective implements {{ implements }}
 {
+    {{ dummyMethods }}
     // TODO implement the directive
 }

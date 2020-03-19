@@ -1,0 +1,29 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Validation\Rule;
+use Nuwave\Lighthouse\Schema\Directives\ValidationDirective;
+
+class DummyClass extends ValidationDirective
+{
+    /**
+     * @return mixed[]
+     */
+    public function rules(): array
+    {
+        return [
+            // TODO implement rules for validator
+        ];
+    }
+
+    /**
+     * @return string[]
+     */
+    public function messages(): array
+    {
+        return [
+            // TODO implement messages for validator
+        ];
+    }
+}
